@@ -15,5 +15,6 @@ Olá
 """
 
 
-def executar(f, n):
-    pass
+def executar(f, n=1):
+    for _ in range(n):
+        f()
